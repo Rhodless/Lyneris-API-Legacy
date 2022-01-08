@@ -1,0 +1,24 @@
+name: Lyneris-API
+author: Rhodless
+version: 0.1
+description: API de Lyneris
+main: fr.lyneris.api.API
+commands:
+  rank:
+    permission: lyneris.admin
+    description: Basic rank command
+  grant:
+    permission: lyneris.admin
+    description: Basic grant command
+  tp:
+    permission: lyneris.teleport
+    aliases: [teleport, tpto]
+    description: Basic teleport command
+  tphere:
+    permission: lyneris.teleporthere
+    aliases: [s, tptome]
+    description: Basic teleport to me command
+  stop:
+    permission: lyneris.stop
+    aliases: [stopserv, restart, reload, rl, shutdown]
+    description: Basic shutdown command
